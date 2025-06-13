@@ -1,10 +1,10 @@
 # Delta Robot Kinematics
 
-This repository contains Python scripts for computing the **forward kinematics** and **inverse kinematics** of a delta robot, based on a mathematical model implemented in Mathematica. The forward kinematics script calculates the end-effector position (x, y, z) given joint angles (θ1, θ2, θ3), while the inverse kinematics script determines the joint angles given the end-effector position.
+This repository contains Python scripts for computing the **forward kinematics** and **inverse kinematics** of a delta robot, based on a mathematical model implemented in Mathematica. The forward kinematics script calculates the end-effector position (x, y, z) given joint angles (θ1, θ2, θ3), while the inverse kinematics script determines the joint angles for a specified end-effector position. Additionally, a PDF document provides the detailed mathematical equations and workspace plotting.
 
 ## Project Overview
 
-The delta robot is a parallel manipulator with three arms connected to a moving platform. The kinematics are derived using geometric constraints and rotation matrices, as detailed in the Mathematica code. The scripts provide accurate computations for both forward and inverse kinematics, validated against test cases from the Mathematica model.
+The delta robot is a parallel manipulator with three arms connected to a moving platform. The kinematics are derived using geometric constraints and rotation matrices, as detailed in the Mathematica code. The scripts provide accurate computations, validated against test cases from the Mathematica model.
 
 ### Key Features
 - **Forward Kinematics**: Computes x, y, z coordinates for given joint angles (θ1, θ2, θ3) using equations from In[72]–In[85].
@@ -17,6 +17,7 @@ The delta robot is a parallel manipulator with three arms connected to a moving 
 
 - `fk_delta.py`: Python script for forward kinematics, computing x, y, z from input angles.
 - `ik_delta.py`: Python script for inverse kinematics, computing θ1, θ2, θ3 from input x, y, z.
+- `mathematica_delta.pdf`: PDF document containing the mathematical equations for forward and inverse kinematics, along with workspace plotting.
 - `README.md`: This file, providing project overview and usage instructions.
 
 ## Installation
@@ -123,7 +124,7 @@ Expected θ1 ≈ -0.358327, θ2 ≈ -0.358194, θ3 ≈ -0.358194
 
 ## Mathematical Basis
 
-The kinematics are derived from the Mathematica code:
+The kinematics are derived from the Mathematica code, with detailed equations provided in `mathematica_delta.pdf`, which also includes workspace plotting for the delta robot.
 
 ### Forward Kinematics
 - Define geometric constraints using `eq1`, `eq2`, `eq3` (In[72]–In[74]).
@@ -174,6 +175,7 @@ Contributions are welcome! To contribute:
    ```
 
 5. Open a pull request.
+
 
 
 ## Contact
