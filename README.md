@@ -1,3 +1,9 @@
+
+![image](https://github.com/user-attachments/assets/36886825-4db5-4fcd-94b2-0c0765688f0d)
+
+
+
+
 # Delta Robot Kinematics
 
 This repository contains Python scripts for computing the **forward kinematics** and **inverse kinematics** of a delta robot, based on a mathematical model implemented in Mathematica. The forward kinematics script calculates the end-effector position (x, y, z) given joint angles (θ1, θ2, θ3), while the inverse kinematics script determines the joint angles for a specified end-effector position. Additionally, a PDF document provides the detailed mathematical equations and workspace plotting. The repository also includes Arduino codes for controlling Dynamixel AX-12A motors to execute random or absolute movements.
