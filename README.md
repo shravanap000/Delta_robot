@@ -166,7 +166,9 @@ Contributions are welcome! To contribute:
 
 5. Open a pull request.
 
-6. [Report](Internship_report.pdf)
+6.![image](https://github.com/user-attachments/assets/ad0666f9-4689-489c-b5ee-cd02feebde83)
+
+7. [Report](Internship_report.pdf)
 
 ## Contact
 
