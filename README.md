@@ -166,6 +166,8 @@ Contributions are welcome! To contribute:
 
 5. Open a pull request.
 
+6. [Report](Internship_report.pdf)
+
 ## Contact
 
 For questions or issues, please open an issue on GitHub or contact [shravanap111@gmail.com](mailto:shravanap111@gmail.com).
